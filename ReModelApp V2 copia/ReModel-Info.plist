@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSFamilyControlsUsageDescription</key>
+	<string>ReModel necesita acceso para gestionar los modos de concentración durante tus entrenamientos.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>health-kit</string>
+		<string>remote-notification</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>x-apple-focus</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Necesitamos acceso a tus datos de salud para rastrear tu actividad física, peso, altura y progreso en el entrenamiento.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Necesitamos permiso para actualizar tus datos de salud con la información de tus entrenamientos, peso y altura.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>UIApplicationSupportsLiveActivities</key>
+	<true/>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.widgetkit-extension</string>
+	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>Rutina Widget</string>
+	<key>NSWidgetWantsLocation</key>
+	<false/>
+	<key>WidgetCenter.supports-multicolor</key>
+	<true/>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Esta app necesita acceso a tus datos de salud para proporcionarte un seguimiento preciso de tu progreso.</string>
+</dict>
+</plist>
